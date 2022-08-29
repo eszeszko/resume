@@ -92,6 +92,10 @@ a:hover {
     text-decoration: underline;
 }
 
+a:after {
+    text-decoration: none;
+}
+
 a::after {
     content: "|";
     padding-left: 0.2em;
@@ -100,4 +104,40 @@ a::after {
 
 a:last-child::after {
     content: none;
+}
+
+#section1grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 0.5em;
+}
+
+#section1Left {
+    border-right: 1px solid white;
+}
+
+article {
+    margin: 0.5em;
+}
+
+#fit-size {
+    font-size: 0.8em;
+}
+
+li {
+    font-size: 0.7em;
+}
+
+#top {
+    text-decoration: none;
+    color: black;
+    font-size: 2.1em;
+}
+
+#top:hover {
+    text-decoration: underline;
+}
+
+#top:visited {
+    text-decoration: none;
 }

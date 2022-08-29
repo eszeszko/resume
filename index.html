@@ -2,15 +2,23 @@
 
 <html>
 	<head>
-		<link href="style.css" rel="stylesheet">
-		<title>Eva Szeszko</title>
+        <link href="style.css" rel="stylesheet">
+        <title>Eva Szeszko</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
 	</head>
 
 	<body>
 		<header id="header">
 			<!-- resume header with your name and title -->
 			<h1><b>EVA SZESZKO</b></h1>
+            <nav-bar>
+                <a id="top" href="about.html">About</a>
+                <a id="top" href="index.html">Resume</a>
+            </nav-bar>
             <hr>
 		</header>
 		<main>
@@ -20,36 +28,70 @@
                     <a href="#section1">Education</a>
                     <a href="#section2">Experience</a>
                     <a href="#section3">Coursework</a>
+                    <a href="#section4">Skills</a>
                 </nav-bar>
                 <hr id="lowerLine">
                 <section>
                     <h3 id="section1">Education</h3>
-                        <h4>University of Michigan</h4>
-                        <ul>
-                            <p>Ann Arbor | 2020-2024<p>
-                            <p>Computer Science | BSE<p>
-                            <p>GPA: <p>
-                        </ul>
+                    <div id="section1grid">
+                        <article id="section1Left">
+                            <h4 id="fit-size">University of Michigan</h4>
+                            <ul>
+                                <p>Ann Arbor | 2020-2024<p>
+                                <p>Computer Science | BSE<p>
+                                <p>GPA: <p>
+                            </ul>
+                        </article>
+                        <article id="section1Right">
+                            <h4 id="fit-size">Awards</h4>
+                            <ul>
+                                <li>University Honors | 2021</li>
+                                <li>Optimist International Oratorical Finalist</li>
+                            </ul>
+                        </article>
+                    </div>
                 </section>
                 <hr id="lowerLine">
                 <section>
                     <h3 id="section2">Experience</h3> 
-                        <h4>BornTec - Software Engineering Intern</h4>
+                        <h4>Software Engineering Intern | BornTec</h4>
                         <p>ADD THINGS HERE</p>
-                        <h4>AiR Play: Inclusive Augmented Reality - Software Engineer</h4>
-                        <p>ADD THINGS HERE</p>
-                        <h4>Juni Learning - Instructor</h4>
-                        <p>ADD THINGS HERE</p>
+                        <h4>Software Engineer | AiR Play: Inclusive Augmented Reality</h4>
+                        <ul>
+                            <li>Team leader of the UI/UX subteam that developed a web-based interface for game settings</li>
+                            <li>Enhanced readability and appeal of existing UI platform by creating one cohesive theme and implementing 5 new user-accessible game settings</li>
+                            <li>Collaborated with a team of 15 professors and graduate students to create an augmented air hockey game environment that is handicap accessible</li>
+                        </ul>
+                        <h4>Instructor | Juni Learning</h4>
+                        <ul>
+                            <li>Taught students computer science and game development principles using Python and PyGame</li>
+                            <li>Coded creative new games for students to replicate on their own</li>
+                            <li>Routinely interpreted and troubleshot other people's code</li>
+                        </ul>
                 </section>
                 <hr id="lowerLine">
                 <section>
                     <h3 id="section3">Relevant Coursework</h3>
                     <h4>Data Structures and Algorithms</h4>
-                    <p>ADD THINGS</p>
+                    <ul>
+                        <li>Stimulated a stock market exchange using priority queues and linked lists</li>
+                        <li>SQL simulator equipped to create, delete, insert, and join queries using C++ and hash maps for efficient operations</li>
+                    </ul>
                     <h4>Computational Machine Learning</h4>
-                    <p>ADD THINGS</p>
+                    <ul>
+                        <li>Trained deep nets and neural networks using Julia to distinguish own handwriting </li>
+                        <li>Analyzed accuracy of testing and training data by updating the number of iterations, batch size, and learning rate that the neural network utilized. </li>
+                    </ul>
                     <h4>Process Throughput and Optimization</h4>
-                    <p>ADD THINGS</p>
+                    <ul>
+                        <li>Collaborated with a team of 3 students to optimize daily profit for a Domino’s store by 20%</li>
+                        <li>Manipulated resources such as number of ovens or workers to decrease operational costs </li>
+                        <li>Improved upon workplace operations to increase worker efficiency to 75%</li>
+                    </ul>
+                </section>
+                <hr id="lowerLine">
+                <section>
+                    <h3 id="section4">Skills</h3>
                 </section>
             </div>
 		</main>

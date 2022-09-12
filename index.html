@@ -1,100 +1,455 @@
-<!---resume page-->
-
+<!DOCTYPE HTML>
+<!--
+	Dimension by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 	<head>
-        <link href="style.css" rel="stylesheet">
-        <title>Eva Szeszko</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <link rel="apple-touch-icon" sizes="180x180" href="image/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="image/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="image/favicon-16x16.png">
-        <link rel="manifest" href="/site.webmanifest">
+		<title>Eva Szeszko</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+	<body class="is-preload">
 
-	<body>
-		<header id="header">
-			<!-- resume header with your name and title -->
-			<h1><b>EVA SZESZKO</b></h1>
-            <nav-bar>
-                <a id="top" href="about.html">About</a>
-                <a id="top" href="index.html">Resume</a>
-            </nav-bar>
-            <hr>
-		</header>
-		<main>
-            <div id="resume">
-                <h1 id="resume">RESUME</h1>
-                <nav-bar>
-                    <a id="resume-nav" href="#section1">Education</a>
-                    <a id="resume-nav" href="#section2">Experience</a>
-                    <a id="resume-nav" href="#section3">Coursework</a>
-                    <a id="resume-nav" href="#section4">Skills</a>
-                </nav-bar>
-                <hr id="lowerLine">
-                <section>
-                    <h3 id="section1">Education</h3>
-                    <div id="section1grid">
-                        <article id="section1Left">
-                            <h4 id="fit-size">University of Michigan</h4>
-                            <ul>
-                                <p>Ann Arbor | 2020-2024<p>
-                                <p>Computer Science | BSE<p>
-                                <p>GPA: <p>
-                            </ul>
-                        </article>
-                        <article id="section1Right">
-                            <h4 id="fit-size">Awards</h4>
-                            <ul>
-                                <li>University Honors | 2021</li>
-                                <li>Optimist International Oratorical Finalist</li>
-                            </ul>
-                        </article>
-                    </div>
-                </section>
-                <hr id="lowerLine">
-                <section>
-                    <h3 id="section2">Experience</h3> 
-                        <h4>Software Engineering Intern | BornTec</h4>
-                        <p>ADD THINGS HERE</p>
-                        <h4>Software Engineer | AiR Play: Inclusive Augmented Reality</h4>
-                        <ul>
-                            <li>Team leader of the UI/UX subteam that developed a web-based interface for game settings</li>
-                            <li>Enhanced readability and appeal of existing UI platform by creating one cohesive theme and implementing 5 new user-accessible game settings</li>
-                            <li>Collaborated with a team of 15 professors and graduate students to create an augmented air hockey game environment that is handicap accessible</li>
-                        </ul>
-                        <h4>Instructor | Juni Learning</h4>
-                        <ul>
-                            <li>Taught students computer science and game development principles using Python and PyGame</li>
-                            <li>Coded creative new games for students to replicate on their own</li>
-                            <li>Routinely interpreted and troubleshot other people's code</li>
-                        </ul>
-                </section>
-                <hr id="lowerLine">
-                <section>
-                    <h3 id="section3">Relevant Coursework</h3>
-                    <h4>Data Structures and Algorithms</h4>
-                    <ul>
-                        <li>Stimulated a stock market exchange using priority queues and linked lists</li>
-                        <li>SQL simulator equipped to create, delete, insert, and join queries using C++ and hash maps for efficient operations</li>
-                    </ul>
-                    <h4>Computational Machine Learning</h4>
-                    <ul>
-                        <li>Trained deep nets and neural networks using Julia to distinguish own handwriting </li>
-                        <li>Analyzed accuracy of testing and training data by updating the number of iterations, batch size, and learning rate that the neural network utilized. </li>
-                    </ul>
-                    <h4>Process Throughput and Optimization</h4>
-                    <ul>
-                        <li>Collaborated with a team of 3 students to optimize daily profit for a Domino’s store by 20%</li>
-                        <li>Manipulated resources such as number of ovens or workers to decrease operational costs </li>
-                        <li>Improved upon workplace operations to increase worker efficiency to 75%</li>
-                    </ul>
-                    <a href="courses.html" style="font-size:medium; color:white ; text-decoration:underline">Full Course List</a>
-                </section>
-                <hr id="lowerLine">
-                <section>
-                    <h3 id="section4">Skills</h3>
-                </section>
-            </div>
-		</main>
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<!-- <div class="logo">
+							<i class="fa-solid fa-e"></i>
+						</div> -->
+						<div class="content">
+							<div class="inner">
+								<h1>Eva Szeszko</h1>
+								<p>An undergraduate student at the <b>University of Michigan College of Engineering</b> <br>studying <b>computer science</b> with a focus
+									on Machine Learning, AI, and Web Development.</p>
+								</p>
+							</div>
+						</div>
+						<nav>
+							<ul>
+								<li><a href="#intro">About</a></li>
+								<li><a href="#work">Work</a></li>
+								<li><a href="#projects">Projects</a></li>
+								<li><a href="#course">Courselist</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<!--<li><a href="#elements">Elements</a></li>-->
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Intro -->
+							<article id="intro">
+								<h2 class="major">About</h2>
+								<span class="image main"><img src="images/self_small.jpg" alt="Picture of Me" /></span>
+								<p>Hi, my name is Eva Szeszko and I am a computer science undergraduate student at the University of Michigan's College of Engineering.
+									One thing to note is that I usually spell my name E-W-A as that is the Polish spelling. However, either spelling is fine by me! The Polish 
+									pronunciation is Eh/vuh. 
+								<p>As a computer scientist, my interests include web development, machine learning, and AI. I have been coding since I was in high school and am always expanding my knowledge
+									and seeking out new projects whether they be school related or of personal interest. There is always more to be learned and I routinely go beyond the scope of my classwork to 
+									improve my coding skills through online coding practices, learn more through online coursework, and excel as a coder.</p>
+
+								<p>As a student and potential employee, I strive to work with my peers in a collaborative, creative, and problem-solving environment. I believe a team that works best is a team that 
+									communicates. I have applied that idea to all areas of my life by being involved on campus in clubs such as Girls in Electrical and Computer Science (GEECS), Society of Women 
+									Engineers (SWE), my sorority, Alpha Delta Pi where I serve as the Family Events Chair, or my project team where I lead the UI/UX subteam.
+								</p>	
+									To learn more about my experiences, check out my <a href="#work">work experience</a> or <a href ="#projects">projects</a></p>
+							</article>
+
+						<!-- Work -->
+							<article id="work">
+								<h2 class="major">Work</h2>
+								<!--<span class="image main"><img src="images/pic02.jpg" alt="Background" /></span>-->
+								<h3>Borntec | Software Engineering Intern</h3>
+								<h4>Summer 2022</h4>
+								<ul>
+									<li>Re-wrote and implemented server-side operations application to provide company-wide ease of access trading information</li>
+									<li>Worked alongside Product Management team to spearhead sought-after changes such as backing up 10+ years of cold data</li>
+								</ul>
+								<h3>AiR Play: Inclusive Augmented Reality | Software Engineer</h3>
+								<h4>2021 - Present</h4>
+								<ul>
+									<li>Team leader of the UI/UX subteam that developed a web-based interface for game settings</li>
+									<li>Enhanced readability and appeal of existing UI platform by creating one cohesive theme and implementing 5 new user-accessible game settings</li>
+									<li>Collaborated with a team of 15 professors and graduate students to create an augmented air hockey game environment that is handicap accessible</li>
+								</ul>
+								<h3>Juni Learning | Instructor</h3>
+								<h4>2021 - Present</h4>
+								<ul>
+									<li>Taught students computer science and game development principles using Python and PyGame</li>
+									<li>Coded creative new games for students to replicate on their own</li>
+									<li>Routinely interpreted and troubleshot other people's code</li>
+								</ul>
+							</article>
+
+						<!-- Courses -->
+							<article id="course">
+								<h2 class="major">Courselist</h2>
+								<!--<span class="image main"><img src="images/pic03.jpg" alt="Background" /></span>-->
+								<h3>Fall 2022 (current)</h3>
+								<ul>
+									<p><b>EECS 370</b> Computer Organization</p>
+									<p><b>EECS 492</b> Introduction to AI</p>
+									<p><b>SI 339</b> Web Design, Development, and Accessibility</p>
+									<p><b>ROB 101</b> Computational Linear Algebra</p>
+								</ul>
+								<h3>Winter 2022</h3>
+								<ul>
+									<p><b>EECS 281</b> Data Structures and Algorithms</p>
+									<p><b>EECS 376</b> Foundations of Computer Science</p>
+									<p><b>TCHCLM 300</b> Technical Communication for Computer Science</p>
+									<p><b>GER 386</b> German Fairytales</p>
+								</ul>
+								<h3>Fall 2021</h3>
+								<ul>
+									<p><b>EECS 280</b> Programming and Data Structures</p>
+									<p><b>EECS 203</b> Discrete Math</p>
+									<p><b>EECS 298</b> Applied Computational Machine Learning</p>
+									<p><b>CHEM 130</b> General Chemistry I</p>
+								</ul>
+								<h3>Winter 2021</h3>
+								<ul>
+									<p><b>ENGR 100</b> Process Thoughput and Optimization</p>
+									<p><b>Physics 240</b> Physics II</p>
+									<p><b>Stats 250</b> Statistical and Data Analysis</p>
+									<p><b>Math 215</b> Multivariable and Multivector Calculus</p>
+									<p><b>Econ 101</b> Principle Econ I</p>
+								</ul>
+								<h3>Fall 2020</h3>
+								<ul>
+									<p><b>ENGR 151</b> Accelerated Programming</p>
+									<p><b>Math 116</b> Calculus I</p>
+									<p><b>Physics 140</b> Physics I</p>
+									<p><b>PSYCH1 111</b> Intro to Psychology</p>
+								</ul>
+							</article>
+
+						<!-- Contact -->
+							<article id="contact">
+								<h2 class="major">Contact</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="4"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Reset" /></li>
+									</ul>
+								</form>
+								<h3>Social</h3>
+								<ul class="icons">
+									<li><a href="mailto:eszeszko@umich.edu" class = "fa fa-envelope"><span class="label"></span></a></li>
+									<li><a href="https://www.linkedin.com/in/eva-szeszko/" class = "fab fa-linkedin"><span class="label"></span></a></li>
+									<li><a href="https://github.com/eszeszko" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://drive.google.com/file/d/1Ij9b4EEbxHLd5krTArWTHJXOkCvrC2Gf/view?usp=sharing" class = "fa fa-file"><span class="label"></span></a>  Resume (PDF)</li>
+								</ul>
+							</article>
+
+						<!---Projects-->
+							<article id="projects">
+								<h2 class="major">Projects</h2>
+								
+								<h3>LC2K Assembler</h3>
+								<p>Constructed a program to read in LC2K instructions and convert them to machine code. Submitted for EECS370 course.</p>
+
+								<h3>Stock Market Exchange Simualtor</h3>
+								<p>Simulated a stock market exchange using priority queues and linked lists. Submitted for EECS281 course.</p>
+								
+								<h3>SQL Imitator</h3>
+								<p>SQL simulator equipped to create, delete, insert, and join queries using C++ and hash maps for efficient operations. Submitted for EECS281 course.</p>
+								
+								<h3>Handwriting Recognizer</h3>
+								<p>Trained deep nets and neural networks using Julia language to distinguish own handwriting. Also analyzed accuracy of testing and training data by updating the number of iterations, batch size, and learning rate that the neural network utilized. Submitted for EECS298 course.</p>
+								
+								<h3>Domino's Profit Optimization</h3>
+								<p>Collaborated with a team of 3 students to optimize daily profit for a Domino’s store by 20% and improved workplace operations to 75%. Submitted for ENGR100 course.</p>
+
+								<h3>Santa's Presents Game</h3>
+								<p>Designed fully-playable game where Santa drops presents into moving chimneys using a mix of PyGame and Python. Game was then replicated by my Juni students. To read more about my Juni Learning experience, please click <a href="#work">here.</a></p>
+
+							</article>
+
+						<!-- Elements -->
+							<article id="elements">
+								<h2 class="major">Elements</h2>
+
+								<section>
+									<h3 class="major">Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<h5>Heading Level 5</h5>
+									<h6>Heading Level 6</h6>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3 class="major">Lists</h3>
+
+									<h4>Unordered</h4>
+									<ul>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Alternate</h4>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam.</li>
+										<li>Sagittis adipiscing.</li>
+										<li>Felis enim feugiat.</li>
+									</ul>
+
+									<h4>Ordered</h4>
+									<ol>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis viverra.</li>
+										<li>Felis enim feugiat.</li>
+										<li>Dolor pulvinar etiam.</li>
+										<li>Etiam vel felis lorem.</li>
+										<li>Felis enim et feugiat.</li>
+									</ol>
+									<h4>Icons</h4>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+									</ul>
+
+									<h4>Actions</h4>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3 class="major">Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button primary">Primary</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button primary disabled">Disabled</span></li>
+										<li><span class="button disabled">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3 class="major">Form</h3>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="demo-name">Name</label>
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+											</div>
+											<div class="field half">
+												<label for="demo-email">Email</label>
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+											</div>
+											<div class="field">
+												<label for="demo-category">Category</label>
+												<select name="demo-category" id="demo-category">
+													<option value="">-</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="field half">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="field half">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="field">
+												<label for="demo-message">Message</label>
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</form>
+								</section>
+
+							</article>
+
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- BG -->
+			<div id="bg"></div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
 	</body>
 </html>
